@@ -1,1 +1,1 @@
-Program([FuncDecl(Id('iF_Func'),[],([],[If([(BinaryOp('>=',Id('real_me'),FloatLiteral(0.0)),[],[Assign(Id('real_me'),BinaryOp('+',Id('real_me'),IntLiteral(1)))]),(BinaryOp('<',Id('real_me'),IntLiteral(5)),[],[CallStmt(Id('println'),[StringLiteral('Hello world')])])],([],[CallStmt(Id('foo'),[IntLiteral(9)])]))]))])
+Program([FuncDecl(Id('main'),[],([],[Dowhile(([],[CallStmt(Id('foo'),[]),Return(None)]),IntLiteral(1))]))])

@@ -1,15 +1,4 @@
-
-        Var: a = {1,2,0xFF} , b = "**nhin cai gi ma nhin", c ;
-        Function: main
-            **main func**
-        Parameter: x,y,z
-            ** 3 parameter**
+Function: arrayhavespace
         Body:
-            ** null **
+            Var  : x[123]={   20, 2   ,108  };
         EndBody.
-        
-        Function: whileEmpty
-        Body:
-            While i < 5 Do EndWhile.
-        EndBody.
-        

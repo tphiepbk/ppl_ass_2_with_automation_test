@@ -1,6 +1,6 @@
 
-        Function: fun
-        Parameter: a
+        Function: main
+        Parameter: n, m[10]
         Body:
         EndBody.
         

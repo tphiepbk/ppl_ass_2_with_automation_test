@@ -1,18 +1,9 @@
 
-        Function: ewqe 
-        Parameter: n,k
-        Body: 
-            Var: i = 0;
-            While (i < 5) Do
-                a[i] = b +. 1.2202;
-                i = i + 1;
-            EndWhile.
-        EndBody.
-        
-        Function: fact
-        Parameter: n[2], a[2][3]
-        Body:
-            Var: z = {}, t;
-            a = a *. x;
-        EndBody.
-        
+            Function: returnboolean
+            Body:
+            If str == "Chung Xon" Then
+                Return True;
+            Else
+                Return False;
+                EndIf.
+            EndBody.

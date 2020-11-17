@@ -1,15 +1,13 @@
+Function: iffull
 
-        Function: rewrw_rwerwer_rwrwer
-        Parameter: laksjflasfjlsf_afefae
+
+        Parameter: themdauchamphay
         Body:
-            Do 
-                Do 
-                    Do
-                        Do
-                            a = a + foo(2)[5][0x123];
-                        While a EndDo.    
-                    While a EndDo.
-                While a EndDo.
-            While a EndDo.
+            If n == 0 Then
+                Return 1;
+            ElseIf (n>0) Then
+                Return n * fact (n - 1);
+            Else
+                Return n;
+            EndIf.
         EndBody.
-        

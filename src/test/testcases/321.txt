@@ -1,9 +1,9 @@
 
-        Function: a
+        Function: main
         Body:
-            Var: a[0x123][0o456] = {{{}}};
-            If a >= 8 Then
-                a[identifier] = 2;
-            EndIf.
+        While 1 Do
+        Continue;
+        Return 1;
+        EndWhile.
         EndBody.
         

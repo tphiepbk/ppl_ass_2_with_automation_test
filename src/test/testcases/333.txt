@@ -1,18 +1,3 @@
 
-        Function: foo_2
-        Body:
-            While a Do
-                While a Do
-                    While a Do
-                        While a Do
-                            While a Do
-                                While a Do
-                                    print(a + 55, base == 16);
-                                EndWhile.
-                            EndWhile.
-                        EndWhile.
-                    EndWhile.
-                EndWhile.
-            EndWhile.
-        EndBody.
+        Var: dsa[432][0X364][0o35721], b = 20.e5, c = "mot con vit xoe ra 2 \n cai canh";
         

@@ -1,11 +1,5 @@
-
-        Function: test_while_1_
-        Parameter: a,b,c,d,e,f,g
+ Function: emptybody
+        Parameter: var
         Body:
-            If !(a + foo(foo(5))) Then
-                While True Do
-                    println(hello);
-                EndWhile.
-            EndIf.
         EndBody.
         

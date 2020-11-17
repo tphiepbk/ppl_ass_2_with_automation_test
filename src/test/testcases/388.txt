@@ -1,12 +1,6 @@
-
-        Function: softwareEngineering
-        Parameter: a[5], b
+Function: ifOKE
         Body:
-            c = mayukochan[0] + x[{1,2, 4}];
+            If n == 0 Then
+                Break;
+            EndIf.
         EndBody.
-        
-        Function: callcomplex
-        Body:
-            call(a,876,var*.65e-1,arr[3],True,"chuoi",5345\.535435,767*645645);
-        EndBody.
-        

@@ -1,1 +1,1 @@
-Program([VarDecl(Id('arr0x_123'),[1,1194684],ArrayLiteral([ArrayLiteral([StringLiteral('Hello')]),IntLiteral(675),ArrayLiteral([StringLiteral('0x123')]),StringLiteral('0O123')]))])
+Program([VarDecl(Id('x'),[],ArrayLiteral([IntLiteral(1),FloatLiteral(15000000.0),StringLiteral('abc')])),VarDecl(Id('y'),[],ArrayLiteral([IntLiteral(1),IntLiteral(2),ArrayLiteral([IntLiteral(3),IntLiteral(4)])]))])

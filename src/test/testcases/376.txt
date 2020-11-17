@@ -1,18 +1,3 @@
-
-        Function: foo 
-        Parameter: n
-        Body: 
-            Do
-            While(x < 10)
-            EndDo.
+Function: complexarray
+            Body: x[123]={"duwat73\r \t", "@#&\n rwFEW54",54312,10.e13, 0.123, 543.0e-6  ,{"xe mau xanh"},"xe mau do"};
         EndBody.
-        
-        **New function**
-        
-        Function: test
-        Body:
-            Var: flag;
-            flag = (True != 123) + !3 * (False && kj % 123 <. f());
-            praaa(--------.-.-(!123 == kk * 12 - 3)||False + !!!!!!9==4);
-        EndBody.
-        

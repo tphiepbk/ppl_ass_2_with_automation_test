@@ -1,1 +1,1 @@
-Program([FuncDecl(Id('for_1'),[VarDecl(Id('param'),[],None)],([],[For(Id('i'),IntLiteral(0),BinaryOp('<=',Id('i'),IntLiteral(10)),BinaryOp('+',Id('i'),IntLiteral(2)),([],[If([(BinaryOp('==',Id('i'),IntLiteral(5)),[],[Break()])],([],[]))]))]))])
+Program([FuncDecl(Id('whileoke'),[],([VarDecl(Id('i'),[],IntLiteral(0)),VarDecl(Id('k'),[],IntLiteral(10))],[While(BinaryOp('!=',Id('i'),Id('k')),([],[Assign(ArrayCell(Id('a'),[Id('i')]),BinaryOp('+.',BinaryOp('+',Id('b'),Id('i')),FloatLiteral(15.0))),Assign(Id('i'),BinaryOp('+',Id('i'),IntLiteral(1)))]))]))])

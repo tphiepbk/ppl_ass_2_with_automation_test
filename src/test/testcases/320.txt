@@ -1,8 +1,6 @@
 
-        Function: test
-        Parameter: arr[1000]
+        Function: main
         Body:
-            If !len(arr) 
-                Then Return {}; 
-            EndIf.
+        a[1][2+3] = 1;
         EndBody.
+        

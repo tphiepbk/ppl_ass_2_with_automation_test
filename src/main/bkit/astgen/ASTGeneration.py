@@ -138,8 +138,21 @@ class ASTGeneration(BKITVisitor):
                 res += [self.visit(ele)]
         return res
 
+    '''
     def visitParam_element(self, ctx: BKITParser.Param_elementContext):
         return self.visit(ctx.getChild(0))
+    '''
+
+    def visitParam_element(self, ctx: BKITParser.Param_elementContext):
+        idName = ctx.ID().getText()
+        if ctx.getChildCount() == 1:
+            return VarDecl(Id(idName), [], None)
+        else:
+            listOfTokenInt = ctx.INT_LIT()
+            listDimen = []
+            for it in listOfTokenInt:
+                listDimen += [self.IntegerStandardization(it.getText())]
+            return VarDecl(Id(idName), listDimen, None)
 
     def visitFunc_body(self, ctx: BKITParser.Func_bodyContext):
         return self.visit(ctx.var_decl_and_statement())

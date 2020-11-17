@@ -1,16 +1,6 @@
-
-        Var: x, s = "abc", z = 2;
-        Function: fact
-        Parameter: x
+Function: arrayinarray
+                Parameter: x[2][3]
         Body:
-            Do Return a;
-            While i != 5 EndDo.
-            Return b[5] *. foo(foo(2) + 3);
+            Var: i = 0;
+            x[2][3]={{867,345,987},{76,12,744}};
         EndBody.
-        
-        Function: mk
-        Parameter: x
-        Body:
-            b = -a;
-        EndBody.
-        

@@ -1,9 +1,12 @@
-
-        Function: computer_arch
-        Parameter: n,k
-        Body: 
-            For (i = 9.0945345, i < !(53534 || 534543), "index++") Do
-                print("9.5 yahooooo !!!!");
-            EndFor.
+Function: factorialOfNumber
+        Parameter: n
+        Body:
+        Var:factorial=1;
+        print("Enter integer: ");
+        read();
+        For (i=0, i<=n, 1) Do
+            factorial=factorial*i;
+        EndFor.
+        print(factorial);
+        Return factorial;
         EndBody.
-        

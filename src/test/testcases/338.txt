@@ -1,21 +1,7 @@
 
-        Function: test_while_1_
-        Parameter: a,b,c,d,e,f,g
+        Function: **comment chut da**cocomment
         Body:
-            If !(a + foo(foo(5))) Then
-                println(hello);
-            EndIf.
-        EndBody.
-        
-                ** COMMENT ** 
-                
-        Function: test_while_2_
-        Parameter: a,b,c,d,e,f,g,h,i,k,l,m,n
-        Body:
-            If !(a + foo(foo(5))) Then
-                While a == foo(foo(foo(foo(!7)))) Do
-                    println("I Love You");
-                EndWhile.
-            EndIf.
+            x=20;
+                x=100.0;
         EndBody.
         

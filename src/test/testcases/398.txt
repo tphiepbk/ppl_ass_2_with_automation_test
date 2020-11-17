@@ -1,17 +1,7 @@
-
-        Var: t = 0;
-        Function: mk
-        Parameter: x
-        Body:
-            ** Code Premium **
-            print("this is premium code =)))");
-            **End Code Premium**
-            Do 
-                If i == 6 Then Break;
-                ElseIf i == 7 Then Continue;
-                Else Break;
-                EndIf.
-            While i <= 10
-            EndDo.
-        EndBody.
-        
+Function: test
+            Parameter: a,b
+            Body:
+                a = "string 1";
+                b = "string 2";
+                Return a+b;
+            EndBody. 

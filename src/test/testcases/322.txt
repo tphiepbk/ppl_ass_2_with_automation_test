@@ -1,7 +1,9 @@
 
-        Function: a
+        Function: main
         Body:
-            a = !len(arr);
-            Return {};
+        For (a = 1, a < 10, 2) Do
+        a = 1 + 2 > 3;
+        Break;
+        EndFor.
         EndBody.
         

@@ -1,1 +1,1 @@
-Program([FuncDecl(Id('foo_32_is_32'),[VarDecl(Id('a'),[],FloatLiteral(0.0004)),VarDecl(Id('b'),[],BooleanLiteral(True))],([VarDecl(Id('real'),[],FloatLiteral(2343000.0)),VarDecl(Id('intVar'),[],IntLiteral(74291))],[Assign(Id('res'),BinaryOp('+.',Id('real'),Id('intVar'))),Return(Id('res'))]))])
+Program([FuncDecl(Id('main'),[],([],[]))])

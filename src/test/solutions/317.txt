@@ -1,1 +1,1 @@
-Program([FuncDecl(Id('foo_goo'),[VarDecl(Id('arr'),[12,3,428],ArrayLiteral([ArrayLiteral([])]))],([],[Assign(ArrayCell(Id('arr'),[StringLiteral('0o123')]),ArrayCell(CallExpr(Id('foo'),[FloatLiteral(6.000001)]),[IntLiteral(5)])),CallStmt(Id('foo'),[CallExpr(Id('c'),[CallExpr(Id('b'),[])])])]))])
+Program([FuncDecl(Id('main'),[],([],[Break()]))])

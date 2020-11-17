@@ -1,10 +1,7 @@
 
-        Function: do_whileeeeeeeee
-        Parameter: weirwerwerwe
+        Function: formissing
         Body:
-            Do
-                Return radixsort(arr);
-            While !!!!a
-            EndDo.
+            For (i=12, i < k, i*i) Do
+            goo();
+            EndFor.
         EndBody.
-        

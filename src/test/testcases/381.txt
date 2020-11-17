@@ -1,11 +1,13 @@
-
-        Var: x;
-        Var: a,b,c;
-        Var: a[100];
-        Var: d = 0;
-        
-        Function: callstmt
+Function: foo
+        Parameter: n
         Body:
-            identifier______function(a,b_,c+.3.e-2);
+            Var: i = 0;
+            While i!=423 Do
+                fact (i);
+                i = i + 3; **cmt**
+                If i==212 Then Break;
+                a = (!(b && c)||!(a&&b));
+                EndIf.
+            EndWhile.
         EndBody.
         

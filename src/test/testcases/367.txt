@@ -1,20 +1,8 @@
-
-        Var: a = 4.;
-        Var: x = {{},1,"abc"};
-        
-        **Convert function**
-            
-        Function: convert
-        Parameter: str
+Function: testreturn
+        Parameter: n
         Body:
-            Var: array[100];
-            Var: length;
-            length = length(str) - 1;
-            Return length;
+            Var: t=False;
+            If n<100 Then t=True;
+            EndIf.
+            Return t;
         EndBody.
-        
-        Function: main
-        Body:
-            convert("thai phuc hiep");
-        EndBody.
-        

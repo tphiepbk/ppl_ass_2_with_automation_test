@@ -1,16 +1,7 @@
 
-        Function: function
-        Parameter: hehhehshe
+        Function: foroke
         Body:
-            Do
-                While a Do
-                    print("hfasdfkjals");
-                    foo(foo(foo(goo(5))));
-                    Do
-                        print("Hello world");
-                    While a EndDo.
-                EndWhile.
-            While a == 0
-            EndDo.
+            For (i = 0, i < 10, 2) Do
+                writeln(i);
+            EndFor.
         EndBody.
-        

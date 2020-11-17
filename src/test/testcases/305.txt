@@ -1,4 +1,3 @@
 
-        Var: a[0][0xACD][0O353] = {{1,3}, 0o123, 0X34};
-        Var: arr_0X123 = 0O123; 
+        Var: z = True, y = 0xAF;
         

@@ -1,20 +1,13 @@
-
-        Function: loop_of_loop
+Function: whilenotendwhile
+        Parameter: n
         Body:
-            For (i = 1, i < 10, i+1) Do
-                For (i = 2, i < 10, i+2) Do
-                    For (i = 3, i < 10, i + 3) Do
-                        For (i = 4, i < 10, i + 4) Do
-                            For (i = 5, i < 10, i + 5) Do
-                                For (i = 6, i < 10, i + 6) Do
-                                    For (i = 7, i < 10, i + 7) Do
-                                        print("hello world");
-                                    EndFor.
-                                EndFor.
-                            EndFor.
-                        EndFor.
-                    EndFor.
-                EndFor.
-            EndFor.
+            While True Do
+                Whilen>=1 Do
+                    Whilen<.69.96 Do
+                        While n%3==1 Do
+                            n = n \ 5;
+                        EndWhile
+                    .EndWhile.
+                EndWhile.
+            EndWhile.
         EndBody.
-        

@@ -1,16 +1,13 @@
-
-        Function: main
+Function: test1
         Body:
-            For(counter = 0., foo() * a[23] == 2, "asd") Do
-                x = 213;
-            EndFor.
+            m = test2(a,b) + test1 (x);
         EndBody.
-        Function: moreThanLove
+        Function: test2
         Body:
-            Var: x = {{1,2,3}, **Comment here** "abc"};
-            While (i < 5) Do
-                If i == 3 Then Return 1;EndIf.
-            i = i || 1;
-            EndWhile.
+            Do
+                If(z == 1) Then
+                    x = !a;
+                EndIf.
+            While x
+            EndDo.
         EndBody.
-        

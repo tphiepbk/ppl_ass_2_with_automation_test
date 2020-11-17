@@ -1,12 +1,4 @@
-
-        Var: a = 7.5, b;
-        Function: function
-        Body:
-        EndBody.
-        Function: df 
-        Parameter: n 
-        Body: 
-            Var : a,b,c ;
-            c = a[a+3];
-        EndBody.
-        
+Function: returnstring
+            Body:
+                Return "String";
+            EndBody.

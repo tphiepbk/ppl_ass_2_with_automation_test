@@ -117,20 +117,20 @@ class ASTGenSuite(unittest.TestCase):
     def test_12(self):
         input = """
         Function: this_is_function_1
-        Parameter: a = 6, str = "sldfs$#%#$%#$%#$df"
+        Parameter: a, str
         Body:
             a = a + str;
             this_is_function_1(a+1, str+1);
             println(a);
         EndBody.
         """
-        expect=Program([FuncDecl(Id('this_is_function_1'),[VarDecl(Id('a'),[],IntLiteral(6)),VarDecl(Id('str'),[],StringLiteral('sldfs$#%#$%#$%#$df'))],([],[Assign(Id('a'),BinaryOp('+',Id('a'),Id('str'))),CallStmt(Id('this_is_function_1'),[BinaryOp('+',Id('a'),IntLiteral(1)),BinaryOp('+',Id('str'),IntLiteral(1))]),CallStmt(Id('println'),[Id('a')])]))])
+        expect=Program([FuncDecl(Id('this_is_function_1'),[VarDecl(Id('a'),[],None),VarDecl(Id('str'),[],None)],([],[Assign(Id('a'),BinaryOp('+',Id('a'),Id('str'))),CallStmt(Id('this_is_function_1'),[BinaryOp('+',Id('a'),IntLiteral(1)),BinaryOp('+',Id('str'),IntLiteral(1))]),CallStmt(Id('println'),[Id('a')])]))])
         self.assertTrue(TestAST.checkASTGen(input,expect,312))
 
     def test_13(self):
         input = """
         Function: foo_32_is_32
-        Parameter:  a = 0.0004, b = True
+        Parameter:  a , b
         Body:
             Var: real = 2343.0e3;
             **Just a comment**
@@ -144,7 +144,7 @@ class ASTGenSuite(unittest.TestCase):
         stmt = Assign(Id('res'), BinaryOp('+.', Id('real'), Id('intVar')))
         returnstmt = Return(Id('res'))
         func = FuncDecl(Id('foo_32_is_32'), [VarDecl(Id('a'), [], FloatLiteral(0.0004)), VarDecl(Id('b'), [], BooleanLiteral(True))], ([vardecl1, vardecl2], [stmt, returnstmt]))
-        expect=Program([FuncDecl(Id('foo_32_is_32'),[VarDecl(Id('a'),[],FloatLiteral(0.0004)),VarDecl(Id('b'),[],BooleanLiteral(True))],([VarDecl(Id('real'),[],FloatLiteral(2343000.0)),VarDecl(Id('intVar'),[],IntLiteral(74291))],[Assign(Id('res'),BinaryOp('+.',Id('real'),Id('intVar'))),Return(Id('res'))]))])
+        expect=Program([FuncDecl(Id('foo_32_is_32'),[VarDecl(Id('a'),[],None),VarDecl(Id('b'),[],None)],([VarDecl(Id('real'),[],FloatLiteral(2343000.0)),VarDecl(Id('intVar'),[],IntLiteral(74291))],[Assign(Id('res'),BinaryOp('+.',Id('real'),Id('intVar'))),Return(Id('res'))]))])
         self.assertTrue(TestAST.checkASTGen(input,expect,313))
 
     def test_14(self):
@@ -182,7 +182,7 @@ class ASTGenSuite(unittest.TestCase):
     def test_16(self):
         input = """
         Function: this_is_function **bla bla**
-        Parameter: a = 0x123
+        Parameter: a 
         Body:
             Var: a = 0x123;
             a = this_is_function(0x123) + arr["string"];
@@ -193,13 +193,13 @@ class ASTGenSuite(unittest.TestCase):
         stmt = Assign(Id('a'), BinaryOp('+', CallExpr(Id('this_is_function'), [IntLiteral(291)]), ArrayCell(Id('arr'), [StringLiteral("string")])))
         retstmt = Return(Id('a'))
         func = FuncDecl(Id('this_is_function'), [VarDecl(Id('a'), [], IntLiteral(291))], ([vardecl], [stmt, retstmt]))
-        expect=Program([FuncDecl(Id('this_is_function'),[VarDecl(Id('a'),[],IntLiteral(291))],([VarDecl(Id('a'),[],IntLiteral(291))],[Assign(Id('a'),BinaryOp('+',CallExpr(Id('this_is_function'),[IntLiteral(291)]),ArrayCell(Id('arr'),[StringLiteral('string')]))),Return(Id('a'))]))])
+        expect=Program([FuncDecl(Id('this_is_function'),[VarDecl(Id('a'),[],None)],([VarDecl(Id('a'),[],IntLiteral(291))],[Assign(Id('a'),BinaryOp('+',CallExpr(Id('this_is_function'),[IntLiteral(291)]),ArrayCell(Id('arr'),[StringLiteral('string')]))),Return(Id('a'))]))])
         self.assertTrue(TestAST.checkASTGen(input,expect,316))
 
     def test_17(self):
         input = """
         Function: foo_goo
-        Parameter: arr[12][3][0o654] = {{}}
+        Parameter: arr[12][3][0o654] 
         Body:
             **Var : a = 9;**
             arr["0o123"] = foo(6.000001)[5];
@@ -210,7 +210,7 @@ class ASTGenSuite(unittest.TestCase):
         assign = Assign(ArrayCell(Id('arr'), [StringLiteral("0o123")]), ArrayCell(CallExpr(Id('foo'), [FloatLiteral(6.000001)]), [IntLiteral(5)]))
         callstmt = CallStmt(Id('foo'), [CallExpr(Id('c'), [CallExpr(Id('b'), [])])])
         func = FuncDecl(Id('foo_goo'), paramlist, ([], [assign, callstmt]))
-        expect=Program([FuncDecl(Id('foo_goo'),[VarDecl(Id('arr'),[12,3,428],ArrayLiteral([ArrayLiteral([])]))],([],[Assign(ArrayCell(Id('arr'),[StringLiteral('0o123')]),ArrayCell(CallExpr(Id('foo'),[FloatLiteral(6.000001)]),[IntLiteral(5)])),CallStmt(Id('foo'),[CallExpr(Id('c'),[CallExpr(Id('b'),[])])])]))])
+        expect=Program([FuncDecl(Id('foo_goo'),[VarDecl(Id('arr'),[12,3,428],None)],([],[Assign(ArrayCell(Id('arr'),[StringLiteral('0o123')]),ArrayCell(CallExpr(Id('foo'),[FloatLiteral(6.000001)]),[IntLiteral(5)])),CallStmt(Id('foo'),[CallExpr(Id('c'),[CallExpr(Id('b'),[])])])]))])
         self.assertTrue(TestAST.checkASTGen(input,expect,317))
 
     def test_18(self):
@@ -344,7 +344,7 @@ class ASTGenSuite(unittest.TestCase):
     def test_26(self):
         input = """
         Function: a
-        Parameter: a[0x123], str = "Hello"
+        Parameter: a[0x123], str 
         Body:
             If 4 Then 
                 If 4 Then 
@@ -359,7 +359,7 @@ class ASTGenSuite(unittest.TestCase):
             EndIf.
         EndBody.
          """
-        expect=Program([FuncDecl(Id('a'),[VarDecl(Id('a'),[291],None),VarDecl(Id('str'),[],StringLiteral('Hello'))],([],[If([(IntLiteral(4),[],[If([(IntLiteral(4),[],[If([(IntLiteral(4),[],[If([(IntLiteral(4),[],[If([(IntLiteral(4),[],[CallStmt(Id('println'),[StringLiteral('helloWorld')])])],([],[]))])],([],[]))])],([],[]))])],([],[]))])],([],[]))]))])
+        expect=Program([FuncDecl(Id('a'),[VarDecl(Id('a'),[291],None),VarDecl(Id('str'),[],None)],([],[If([(IntLiteral(4),[],[If([(IntLiteral(4),[],[If([(IntLiteral(4),[],[If([(IntLiteral(4),[],[If([(IntLiteral(4),[],[CallStmt(Id('println'),[StringLiteral('helloWorld')])])],([],[]))])],([],[]))])],([],[]))])],([],[]))])],([],[]))]))])
         self.assertTrue(TestAST.checkASTGen(input, expect, 326))
 
     def test_27(self):
@@ -379,7 +379,7 @@ class ASTGenSuite(unittest.TestCase):
     def test_28(self):
         input = """
         Function: foo_test_if
-        Parameter: a = 0, b,e,d,g,h
+        Parameter: a, b,e,d,g,h
         Body:
             Var: a = 5.e3;
             If (a || 7) && (!a && b) Then
@@ -388,13 +388,13 @@ class ASTGenSuite(unittest.TestCase):
             EndIf. 
         EndBody.
         """
-        expect=Program([FuncDecl(Id('foo_test_if'),[VarDecl(Id('a'),[],IntLiteral(0)),VarDecl(Id('b'),[],None),VarDecl(Id('e'),[],None),VarDecl(Id('d'),[],None),VarDecl(Id('g'),[],None),VarDecl(Id('h'),[],None)],([VarDecl(Id('a'),[],FloatLiteral(5000.0))],[If([(BinaryOp('&&',BinaryOp('||',Id('a'),IntLiteral(7)),BinaryOp('&&',UnaryOp('!',Id('a')),Id('b'))),[],[Assign(Id('a'),BinaryOp('||',Id('a'),Id('b'))),If([(BinaryOp('<=',Id('a'),IntLiteral(7)),[],[CallStmt(Id('println'),[Id('a')])])],([],[]))])],([],[]))]))])
+        expect=Program([FuncDecl(Id('foo_test_if'),[VarDecl(Id('a'),[],None),VarDecl(Id('b'),[],None),VarDecl(Id('e'),[],None),VarDecl(Id('d'),[],None),VarDecl(Id('g'),[],None),VarDecl(Id('h'),[],None)],([VarDecl(Id('a'),[],FloatLiteral(5000.0))],[If([(BinaryOp('&&',BinaryOp('||',Id('a'),IntLiteral(7)),BinaryOp('&&',UnaryOp('!',Id('a')),Id('b'))),[],[Assign(Id('a'),BinaryOp('||',Id('a'),Id('b'))),If([(BinaryOp('<=',Id('a'),IntLiteral(7)),[],[CallStmt(Id('println'),[Id('a')])])],([],[]))])],([],[]))]))])
         self.assertTrue(TestAST.checkASTGen(input,expect,328))
 
     def test_29(self):
         input = """
          Function: a
-         Parameter: var_123 = True
+         Parameter: var_123 
          Body:
             If var_123 Then Return "Hello";
             ElseIf var_123 == 1 Then 
@@ -410,7 +410,7 @@ class ASTGenSuite(unittest.TestCase):
             EndIf.
          EndBody.
          """
-        expect=Program([FuncDecl(Id('a'),[VarDecl(Id('var_123'),[],BooleanLiteral(True))],([],[If([(Id('var_123'),[],[Return(StringLiteral('Hello'))]),(BinaryOp('==',Id('var_123'),IntLiteral(1)),[],[CallStmt(Id('println'),[StringLiteral('hello')])]),(BinaryOp('==',Id('var_123'),IntLiteral(2)),[VarDecl(Id('a'),[],IntLiteral(4))],[If([(BinaryOp('==',Id('a'),IntLiteral(5)),[],[Assign(Id('a'),BinaryOp('%',BinaryOp('&&',BinaryOp('||',Id('a'),UnaryOp('!',Id('b'))),Id('c')),IntLiteral(32))),Return(Id('a'))])],([],[]))])],([],[Return(BooleanLiteral(True))]))]))])
+        expect=Program([FuncDecl(Id('a'),[VarDecl(Id('var_123'),[],None)],([],[If([(Id('var_123'),[],[Return(StringLiteral('Hello'))]),(BinaryOp('==',Id('var_123'),IntLiteral(1)),[],[CallStmt(Id('println'),[StringLiteral('hello')])]),(BinaryOp('==',Id('var_123'),IntLiteral(2)),[VarDecl(Id('a'),[],IntLiteral(4))],[If([(BinaryOp('==',Id('a'),IntLiteral(5)),[],[Assign(Id('a'),BinaryOp('%',BinaryOp('&&',BinaryOp('||',Id('a'),UnaryOp('!',Id('b'))),Id('c')),IntLiteral(32))),Return(Id('a'))])],([],[]))])],([],[Return(BooleanLiteral(True))]))]))])
         self.assertTrue(TestAST.checkASTGen(input, expect, 329))
 
     # TEST WHILE
@@ -982,8 +982,8 @@ class ASTGenSuite(unittest.TestCase):
 
     def test_62(self):
         input = """
-        Var: x, y =1, y = "abchello", m[1], n[10] = {1,2,{"antlr",5.4},5.e-1285435};
-        Var: a_wrewrwe = 00012.21; 
+        Var: x, y=1, y, m[1], n[10] = {1,2,{"antlr",5.4},5.e-1285435};
+        Var: a_wrewrwe;
         Function: fact
         Parameter: n, rwrwerwerwer[3][44][0x31FF], cxa[0x12][0o1][8][0]
         Body:
@@ -993,7 +993,7 @@ class ASTGenSuite(unittest.TestCase):
             object = 4 > 7;
         EndBody.
         """
-        expect=Program([VarDecl(Id('x'),[],None),VarDecl(Id('y'),[],IntLiteral(1)),VarDecl(Id('y'),[],StringLiteral('abchello')),VarDecl(Id('m'),[1],None),VarDecl(Id('n'),[10],ArrayLiteral([IntLiteral(1),IntLiteral(2),ArrayLiteral([StringLiteral('antlr'),FloatLiteral(5.4)]),FloatLiteral(0.0)])),VarDecl(Id('a_wrewrwe'),[],FloatLiteral(12.21)),FuncDecl(Id('fact'),[VarDecl(Id('n'),[],None),VarDecl(Id('rwrwerwerwer'),[3,44,12799],None),VarDecl(Id('cxa'),[18,1,8,0],None)],([VarDecl(Id('t'),[],None),VarDecl(Id('r'),[],FloatLiteral(10.0)),VarDecl(Id('thread'),[],FloatLiteral(2.123123e+33)),VarDecl(Id('r'),[],FloatLiteral(10.0))],[Assign(Id('v'),BinaryOp('*',BinaryOp('*',BinaryOp('*.',BinaryOp('*.',BinaryOp('\\.',FloatLiteral(4.0),FloatLiteral(3.0)),FloatLiteral(3.14)),Id('r')),Id('r')),Id('a'))),Assign(Id('object'),BinaryOp('>',IntLiteral(4),IntLiteral(7)))]))])
+        expect=Program([VarDecl(Id('x'),[],None),VarDecl(Id('y'),[],IntLiteral(1)),VarDecl(Id('y'),[],None),VarDecl(Id('m'),[1],None),VarDecl(Id('n'),[10],ArrayLiteral([IntLiteral(1),IntLiteral(2),ArrayLiteral([StringLiteral('antlr'),FloatLiteral(5.4)]),FloatLiteral(0.0)])),VarDecl(Id('a_wrewrwe'),[],None),FuncDecl(Id('fact'),[VarDecl(Id('n'),[],None),VarDecl(Id('rwrwerwerwer'),[3,44,12799],None),VarDecl(Id('cxa'),[18,1,8,0],None)],([VarDecl(Id('t'),[],None),VarDecl(Id('r'),[],FloatLiteral(10.0)),VarDecl(Id('thread'),[],FloatLiteral(2.123123e+33)),VarDecl(Id('r'),[],FloatLiteral(10.0))],[Assign(Id('v'),BinaryOp('*',BinaryOp('*',BinaryOp('*.',BinaryOp('*.',BinaryOp('\\.',FloatLiteral(4.0),FloatLiteral(3.0)),FloatLiteral(3.14)),Id('r')),Id('r')),Id('a'))),Assign(Id('object'),BinaryOp('>',IntLiteral(4),IntLiteral(7)))]))])
         self.assertTrue(TestAST.checkASTGen(input, expect, 362))
 
     def test_63(self):

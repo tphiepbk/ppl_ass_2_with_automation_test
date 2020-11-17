@@ -1,12 +1,4 @@
-
-        Function: rapviet
-        Parameter: list[324234]
+Function: whilenullstmt
         Body:
-            For (i = 1, i <= 15, i + 1) Do
-                champion(de_choat);
-                Do
-                    print("gducky is better than de_choat");
-                While champion(gducky) EndDo.
-            EndFor.
+            While i < 5 Do EndWhile.
         EndBody.
-        

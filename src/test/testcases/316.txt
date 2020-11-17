@@ -1,9 +1,6 @@
 
-        Function: this_is_function **bla bla**
-        Parameter: a = 0x123
+        Function: main
         Body:
-            Var: a = 0x123;
-            a = this_is_function(0x123) + arr["string"];
-            Return a;
+        Continue;
         EndBody.
         

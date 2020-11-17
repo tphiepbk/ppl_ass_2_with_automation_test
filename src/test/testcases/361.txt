@@ -1,13 +1,8 @@
-
-        Function: iflongnhau
-        Parameter: a, b
+Function: continue
         Body:
-            Var: id[4412][867][9856][867], stringID[108] = "this is a string",literal = 120000e-1,  array[2][4] = {{867,445,987},{76,12,744}};
-            If n > 10 Then
-                If n <. 20.5 Then Return x;
+            For (i=0, i!=9, i) Do
+                If i==10 Then Continue;
                 EndIf.
-                printStrLn(arg);
-            Else fact(x);
-            EndIf.
+                foo();
+            EndFor.
         EndBody.
-        

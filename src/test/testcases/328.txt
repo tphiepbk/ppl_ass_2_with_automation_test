@@ -1,11 +1,13 @@
+Function: iffull
 
-        Function: foo_test_if
-        Parameter: a = 0, b,e,d,g,h
-        Body:
-            Var: a = 5.e3;
-            If (a || 7) && (!a && b) Then
-                a = (a || b);
-                If a <= 7 Then println(a); EndIf.
-            EndIf. 
-        EndBody.
-        
+
+            Parameter: themdauchamphay
+            Body:
+                If n == 0 Then
+                    Return 1;
+                ElseIf (n>0) Then
+                    Return n * fact (n - 1);
+                Else
+                    Return n;
+                EndIf.
+            EndBody.

@@ -1,13 +1,11 @@
-
-        Function: for_2
-        Parameter: osad, long_nger
+Function: whileandif
         Body:
-            For (count = 100, count >= 28, count || 7) Do
-                If diss(osad, long_nger) Then
-                    diss(long_nger, osad);
-                    print("rap battle");
+            Var: x=20;
+            While True Do
+                If x==0 Then Break;
+                ElseIf x%2==0 Then
+                    x=x\2;
+                Else writeln(x);
                 EndIf.
-                watch(audience);
-            EndFor.
+            EndWhile.
         EndBody.
-        

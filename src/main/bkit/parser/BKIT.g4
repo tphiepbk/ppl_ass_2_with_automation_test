@@ -52,7 +52,8 @@ func_declaration_part:                      FUNCTION COLON ID param_list? func_b
 param_list:                                 PARAMETER COLON param_element (COMMA param_element)*;
 
 //param_element:                              ID | array_list;
-param_element:                              single_var_list | array_list;
+//param_element:                              single_var_list | array_list;
+param_element:                              ID (LSB INT_LIT RSB)*;
 
 //func_body:                                  BODY COLON var_declaration_part* (statement_in_function)*  ENDBODY DOT;
 func_body:                                  BODY COLON var_decl_and_statement  ENDBODY DOT;

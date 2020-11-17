@@ -1,12 +1,6 @@
 
-        Function : foo1
+        Function: main
         Body:
-            Var: a = 8;
-            a = a + 6;
-        EndBody.
-        Function : foo2
-        Body:
-            Var: hex = 0x12344A ;
-            res = hex > 565;
+        Var: a = 5, b[1];
         EndBody.
         

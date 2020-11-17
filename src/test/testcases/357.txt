@@ -1,9 +1,7 @@
-
-        Function: hello_world
-        Parameter: hihi_hehe
+Function: testdowhile
+        Parameter: x,a,b
         Body:
-            For (a= binz(9), a>= binz(9), a + !binz(9)) Do
-                love(binz(9) && chaubui(9));
-            EndFor.
+            Do x = a + b;
+            While(x<1000.e5)
+            EndDo.
         EndBody.
-        

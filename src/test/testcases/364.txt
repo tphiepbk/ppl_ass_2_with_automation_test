@@ -1,25 +1,4 @@
-
-        Var: t = 0;
-        Function: mk
-        Parameter: x
+Function: callmore
         Body:
-            While a>b Do
-                If b>a Then
-                    a = b;
-                EndIf.
-            EndWhile.                
+            call(a,876,var*.65e-1,arr[3],True,"chuoi~~\n");
         EndBody.
-        
-        **New function**
-        
-        Function: mk
-        Parameter: x
-        Body:
-            If a==3 Then
-                If b==a Then
-                    write("b==a==3");
-                    fwrite("xxx");
-                EndIf.
-            EndIf.
-        EndBody.
-        

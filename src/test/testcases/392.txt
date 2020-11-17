@@ -1,12 +1,17 @@
+Var: a = 5;
 
         Function: main
-        Parameter: hello
+        Parameter: a,b[2]
         Body:
-            For(i = initial(), i < bound() + bound()[2343], step(step(8))) Do
-                a = in(f(in(2, f())))[f()];
-            EndFor.
-            If hello Then
-                print("hello");
+            If bool_of_string ("True") Then
+                a = int_of_string (read ());
+                b = float_of_int (a) +. 2.0;
+            ElseIf a == 5 Then
+                a = a + main(123);
+                Return a;
+            ElseIf a == 6 Then
+                a = a *. 2;
+                Break;
+            Else Continue;
             EndIf.
         EndBody.
-        

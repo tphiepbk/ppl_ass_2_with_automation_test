@@ -1,1 +1,1 @@
-Program([VarDecl(Id('a'),[],StringLiteral('#$%#$^$653664^%#^$%^')),FuncDecl(Id('a'),[],([],[If([(BinaryOp('>=',Id('a'),IntLiteral(7)),[],[CallStmt(Id('print'),[StringLiteral('hello')])])],([],[]))]))])
+Program([FuncDecl(Id('main'),[],([],[If([(IntLiteral(1),[],[Return(None)]),(IntLiteral(2),[],[Assign(Id('a'),IntLiteral(1))])],([],[Break()]))]))])

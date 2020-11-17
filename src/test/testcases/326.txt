@@ -1,17 +1,8 @@
 
-        Function: a
-        Parameter: a[0x123], str = "Hello"
+        Function: main
         Body:
-            If 4 Then 
-                If 4 Then 
-                    If 4 Then 
-                        If 4 Then 
-                            If 4 Then
-                                println("helloWorld");
-                            EndIf.
-                        EndIf.
-                    EndIf.        
-                EndIf.
-            EndIf.
+        If 1 Then Return ;
+        ElseIf 2 Then Continue;
+        EndIf.
         EndBody.
-         
+        

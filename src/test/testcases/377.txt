@@ -1,17 +1,6 @@
+Function: arraynull
+        Body:
+            a[12] = {  };
+            x[45]={{{{{}}}}};
 
-        Function: main
-        Body:
-            f = f * ffffffff(a[0xFFFF || 0x1111]); 
         EndBody.
-        
-        **hehe hihi**
-        
-        **hehe hahaha hihi**
-        
-        Function: test
-        Body:
-            Var: k;
-            k = "13" + "das";
-            k = k && 31 - 13 * (k == 0) || dask;
-        EndBody.
-        

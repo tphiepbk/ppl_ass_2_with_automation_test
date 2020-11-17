@@ -1,6 +1,6 @@
 
-        Function: foo_1
+        Function: main
         Body:
-            goo_1(foo_1());
+        Return ;
         EndBody.
         

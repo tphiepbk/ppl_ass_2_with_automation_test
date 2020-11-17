@@ -1,18 +1,11 @@
-
-         Function: a
-         Parameter: var_123 = True
-         Body:
-            If var_123 Then Return "Hello";
-            ElseIf var_123 == 1 Then 
-                println("hello");
-            ElseIf var_123 == 2 Then
-                Var: a = 4;
-                If a == 5 Then 
-                    a = ((a || !b) && c) % 32;
-                    Return a;
+Function: iflongnhau
+        Parameter: a, b
+        Body:
+        Var: id[4412][867][9856][867], stringID[108] = "day la \\ 1 chuoi !!",literal = 120000e-1,  array[2][4] = {{867,445,987},{76,12,744}};
+            If n > 10 Then
+                If n <. 20.5 Then Return x;
                 EndIf.
-            Else
-                Return True;
+                printStrLn(arg);
+            Else fact(x);
             EndIf.
-         EndBody.
-         
+        EndBody.

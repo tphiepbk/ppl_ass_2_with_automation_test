@@ -1,9 +1,6 @@
 
-        Function: foo_2
+        Function: main
         Body:
-            Var: arr[5] = {{}};
-            **Comment again #$%$#%^#@^#**
-            arr["string"] = "string";
-            println(arr);
+        Var: x, y[1][2];
         EndBody.
         

@@ -1,25 +1,12 @@
-
-        ** This is a functionnnnnnnn !!!!!! **
-        
-        Function: reverse
-        Parameter: str
+Function: octalToDecimal
+        Parameter: octalNumber
         Body:
-            For(i = 0, i < len(str) \ 2, s) Do
-                str[i] = str[len(str) - i - 1];
-            EndFor.
-        EndBody.
-        
-        ** This is a functionnnnnnnn !!!!!! **
-        
-        Function: xstk 
-        Parameter: n
-        Body: 
-            For (i = 0, i != 5.534543534534, i*1) Do ewxrwerwerwe=6; EndFor.
-            Do
-                ewrwerwerewr = a + b;
-                writeln(ewx);
-            While(True || True || True || True) EndDo.
-        EndBody.
-        
-        ** This is end of functionnnnnnnn !!!!!! **
-        
+        Var: decimalNumber = 0, i = 0, rem;
+        While (octalNumber != 0) Do
+            rem = octalNumber % 10;
+            octalNumber =octalNumber \ 10;
+            decimalNumber =decimalNumber  + rem * pow(8,i);
+            i=i+1;
+        EndWhile.
+    Return decimalNumber;
+    EndBody.

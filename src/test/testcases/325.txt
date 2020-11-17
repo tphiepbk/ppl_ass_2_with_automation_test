@@ -1,21 +1,7 @@
 
-        Function: a
+        Function: main
         Body:
-            If a == foo_2(arr) Then
-                Return {False};
-            EndIf.
-        EndBody.
-        
-        **New function**
-        
-        Function: foo_2
-        Parameter: a[0x123][0o623]
-        Body:
-            Var: b = 8;
-            If a["index"] == 6 Then
-                a["index"] = 566.677 *. 34.34;
-            Else
-                a["index"] = False;
-            EndIf.
+        If 1 Then Return ;
+        EndIf.
         EndBody.
         

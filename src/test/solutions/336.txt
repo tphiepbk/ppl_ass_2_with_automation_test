@@ -1,1 +1,1 @@
-Program([FuncDecl(Id('test_while'),[VarDecl(Id('a'),[5],None)],([],[While(Id('a'),([],[While(UnaryOp('!',Id('a')),([],[If([(Id('a'),[],[CallStmt(Id('println'),[StringLiteral('sfasdfasd'),UnaryOp('!',IntLiteral(6)),UnaryOp('!',BinaryOp('+',Id('f'),CallExpr(Id('f'),[IntLiteral(9)])))])])],([],[]))]))]))]))])
+Program([FuncDecl(Id('abc'),[VarDecl(Id('global_var'),[],None)],([],[Assign(Id('dayLA1_teNbIen'),BinaryOp('-.',BinaryOp('+',IntLiteral(25),IntLiteral(6)),BinaryOp('\\',BinaryOp('%',FloatLiteral(2.5),IntLiteral(3)),IntLiteral(100))))]))])

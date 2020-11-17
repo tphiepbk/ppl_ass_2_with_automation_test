@@ -1,19 +1,5 @@
-
-        Function: main
-        Body:
-            Var: x = 0., y = 2.;
-            While (x =/= f()) Do
-                x = x +. 1;
-                If x == (1 + foo(4))[8][0x123] Then Break;
-                Else 
-                    While 10 == 10 Do
-                        print("what you do");
-                        print("what you do");
-                        print("what you do for love");
-                    EndWhile.
-                EndIf.
-                y = y -. 1;
-            EndWhile.
-            Return 0;
-        EndBody.
-        
+Function: tinhtoansml
+            Parameter: a,b
+            Body:
+                a[3 +. 10e2] = (foo(x) +. 12.e3) *. 0x123 - a[b[2][3]] + 4;
+            EndBody. 

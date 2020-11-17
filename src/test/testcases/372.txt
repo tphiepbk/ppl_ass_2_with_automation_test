@@ -1,21 +1,6 @@
-
-        Var : k = 0.3e12;
-        
-        Function: bar 
-        Parameter: n 
-        Body: 
-            If !a Then b = 5; EndIf.
-        EndBody.
-        
-        Function: test
-        Parameter: k, a
+Function: array
+        Parameter: x[123]
         Body:
-            Var: str = "this is a string";
-            Var: token;
-            token = strtok(str, "-");
-            While ((token != null)) Do
-                printf("%s", token);
-                token = strtok(str, "-");
-            EndWhile.
+            Var: i = 0;
+            x[123]={996,712,216};
         EndBody.
-        

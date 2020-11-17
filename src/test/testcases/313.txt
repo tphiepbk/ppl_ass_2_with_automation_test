@@ -1,11 +1,5 @@
 
-        Function: foo_32_is_32
-        Parameter:  a = 0.0004, b = True
+        Function: main
         Body:
-            Var: real = 2343.0e3;
-            **Just a comment**
-            Var: intVar = 0x12233;
-            res = real +. intVar;
-            Return res;
         EndBody.
         

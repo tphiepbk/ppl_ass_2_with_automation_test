@@ -1,1 +1,1 @@
-Program([FuncDecl(Id('this_is_function'),[VarDecl(Id('a'),[],IntLiteral(291))],([VarDecl(Id('a'),[],IntLiteral(291))],[Assign(Id('a'),BinaryOp('+',CallExpr(Id('this_is_function'),[IntLiteral(291)]),ArrayCell(Id('arr'),[StringLiteral('string')]))),Return(Id('a'))]))])
+Program([FuncDecl(Id('main'),[],([],[Continue()]))])

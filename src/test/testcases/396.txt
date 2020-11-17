@@ -1,21 +1,11 @@
-
-        Var: a = 4.000, b = 25.00e0;
-        Function: main
-        Parameter: a, x, y, a[5]
+Function: mix
         Body:
-            For (i = 0, i <= 10000, i + 343432.423432 + !("string")) Do
-                print("I love min");
-                If a Then
-                    If a Then
-                        If a Then
-                            If a Then
-                                If a Then
-                                    kiss();
-                                EndIf.
-                            EndIf.
-                        EndIf.
+            While x>1 Do
+                For (i = 100,True, i-1) Do
+                    If a<3 Then
+                        Break;
                     EndIf.
-                EndIf.
-            EndFor.
+                    a = a -1;
+                EndFor.
+            EndWhile.
         EndBody.
-        

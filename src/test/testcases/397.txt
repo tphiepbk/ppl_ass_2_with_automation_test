@@ -1,14 +1,6 @@
-
-        Var: decl =  "5345345345";
-        Function: fact
+Function: printchar
         Body:
-            Var : x = 5, y = {{}}; 
-            For (i = 0, i < 10, 2) Do
-                writeln(i);
-                If i == 7 Then Break;
-                ElseIf i == 8 Then Continue;
-                Else Return nothing;
-                EndIf.
+            For (a = 1, a <= len(str),1 ) Do
+                writeln(str[a]);
             EndFor.
         EndBody.
-        

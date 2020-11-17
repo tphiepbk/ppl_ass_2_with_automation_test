@@ -1,9 +1,6 @@
 
-        Function: this_is_function_1
-        Parameter: a = 6, str = "sldfs$#%#$%#$%#$df"
+        Var: a = 5, b[1];
+        Function: main
         Body:
-            a = a + str;
-            this_is_function_1(a+1, str+1);
-            println(a);
         EndBody.
         

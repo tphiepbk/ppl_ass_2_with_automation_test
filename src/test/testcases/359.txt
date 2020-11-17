@@ -1,11 +1,8 @@
-
-        Function: yahoo______
-        Parameter: string
+Function: breaktest
+        Parameter: x
         Body:
-            println("this is the last function =)))))");
-            println("please give me 10 points");
-            println("I love you so much");
-            println("moah");
-            foo(foo(foo(foo(foo(foo(foo(!!!!!!6)))))));
+            While x >= 1 Do
+                If y<100 Then Break;
+                EndIf.
+            EndWhile.
         EndBody.
-        

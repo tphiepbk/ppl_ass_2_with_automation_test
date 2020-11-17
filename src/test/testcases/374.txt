@@ -1,16 +1,2 @@
 
-        Function: fh 
-        Parameter: n
-        Body: **get**
-        EndBody.
-        
-        Function: ahihihi
-        Body:
-            While !compile() Do EndWhile.
-            While !linker() Do EndWhile.
-            While !interpreter() Do EndWhile.
-            While !notlinker() Do EndWhile.
-            If flag Then loader(); Else fail(); EndIf.
-            Return runner();
-        EndBody.
-        
+        Var: stringinarray, x[123]={"STRING","aRraY1","Array2"};

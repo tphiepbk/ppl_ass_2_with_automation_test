@@ -1,15 +1,5 @@
 
-        Function: test_LOOP_FOR
-        Parameter: thai_phuc_hiep
+        Function: main
         Body:
-            For (i = foo(755)[543534], i <= !(76543 || 534534), i + !(!(1))) Do
-                If a >= 8 Then println("Hello world"); EndIf.
-                While a Do
-                    (a + foo[1])[5] = 456.6456 \. 5354334;
-                EndWhile.
-                Do
-                    println("eminem");
-                While isAlive(eminem) EndDo.
-            EndFor.
+            While True Do print("Hello World"); EndWhile.
         EndBody.
-        

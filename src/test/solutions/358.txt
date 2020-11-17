@@ -1,1 +1,1 @@
-Program([FuncDecl(Id('reduce'),[VarDecl(Id('arr'),[100],None),VarDecl(Id('function'),[],None)],([VarDecl(Id('res'),[],IntLiteral(0))],[For(Id('i'),IntLiteral(0),BinaryOp('<',Id('i'),CallExpr(Id('size'),[Id('arr')])),BinaryOp('+',Id('i'),IntLiteral(1)),([],[Assign(Id('res'),BinaryOp('+',Id('res'),CallExpr(Id('function'),[ArrayCell(Id('arr'),[Id('i')])])))])),Return(Id('res'))]))])
+Program([FuncDecl(Id('notexpr'),[VarDecl(Id('n'),[],None)],([],[Dowhile(([],[Return(IntLiteral(1))]),BinaryOp('=/=',Id('a'),FloatLiteral(2.2)))]))])

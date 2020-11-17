@@ -1,8 +1,6 @@
 
-        Function: goo_1
-        Parameter: this_is_a_param
+        Function: main
         Body:
-            foo_1();
-            a[0.00045][5e30][0o123][0x123] = (foo_1() % goo_1()) \. a[4];
-        EndBody. 
+        Return a[1][2][3];
+        EndBody.
         

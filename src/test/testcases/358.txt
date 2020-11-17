@@ -1,11 +1,7 @@
-
-        Function: reduce
-        Parameter: arr[100], function
+Function: notexpr
+        Parameter: n
         Body:
-            Var: res = 0;
-            For (i = 0 , i < size(arr), i+1) Do
-                res = res + function(arr[i]);
-            EndFor.
-            Return res;
+            Do
+                Return 1;
+            While a =/= 2.2 EndDo.
         EndBody.
-        

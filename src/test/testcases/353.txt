@@ -1,13 +1,10 @@
-
-        Function: loop_for
+Function: whileinwhile
+        Parameter: x
         Body:
-            For (i = !!!!(foo(!(5))), i >= 0x1234, i && 4234) Do
-                For (j = 5, j <= 20, j + 1) Do
-                    print("hello world");
-                    If hello == hello Then
-                        foo(foo(!!!!!!t));
-                    EndIf.
-                EndFor.
-            EndFor.
+            While (True) Do
+                While (x>=0) Do
+                    x = x+-1;
+                EndWhile.
+                If ((x<0)) Then Break; EndIf.
+            EndWhile.
         EndBody.
-        

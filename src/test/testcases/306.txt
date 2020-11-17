@@ -1,4 +1,3 @@
 
-        Var: a_1 = 0x13ACFE44;
-        Var: a_2 = "safds\fsdfds\rfasdfsdf";
+        Var:x, z = "abc \t";
         
