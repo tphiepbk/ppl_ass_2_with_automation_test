@@ -1,0 +1,13 @@
+
+        Function: test_While
+        Parameter: some_param
+        Body:
+            Var: arr[3][4][4][2] = {"fjsakfjskldf$#$#", {24.234,42.2342}};
+            If arr == True Then
+                arr = (1 + foo(454354))["srre"];
+                While !arr Do
+                    println(foo(5));
+                EndWhile.
+            EndIf.
+        EndBody.
+        

@@ -1,0 +1,18 @@
+
+        Function: test_do_while
+        Parameter: param
+        Body:
+            Var: vardecl = "43535345";
+            Do
+                If a Then
+                    Do
+                        If a Then
+                            Do
+                                print("hello world");
+                            While a EndDo.
+                        EndIf.
+                    While a EndDo.
+                EndIf.
+            While a EndDo.
+        EndBody.
+        

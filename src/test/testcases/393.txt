@@ -1,0 +1,17 @@
+
+        Function: fact
+        Parameter : x, a[2]
+        Body:
+            Var: a = "abc", x = {1, "ABS", 3};
+            If (a) Then EndIf.
+        EndBody.
+        Function: foo
+        Parameter: a
+        Body:
+            Var: x = 2;
+            For (i = 6456.654645,i <= 3242.42334, 980.423423) Do
+                print(kiss("16 typh", "min"));
+                writeln("OMG !!!");
+            EndFor.
+        EndBody.
+        

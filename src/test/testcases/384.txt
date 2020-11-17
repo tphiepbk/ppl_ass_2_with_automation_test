@@ -1,0 +1,9 @@
+
+        Function: computer_arch
+        Parameter: n,k
+        Body: 
+            For (i = 9.0945345, i < !(53534 || 534543), "index++") Do
+                print("9.5 yahooooo !!!!");
+            EndFor.
+        EndBody.
+        

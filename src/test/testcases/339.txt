@@ -1,0 +1,10 @@
+
+        Function: wHiLe_HiHi_HeHe
+        Parameter: fast
+        Body:
+            While True Do
+                println("Maybe this is the last testcase");
+                If 1 == 1 Then Break; EndIf.
+            EndWhile.
+        EndBody.
+        

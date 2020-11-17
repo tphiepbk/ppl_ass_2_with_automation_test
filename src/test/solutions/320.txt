@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('test'),[VarDecl(Id('arr'),[1000],None)],([],[If([(UnaryOp('!',CallExpr(Id('len'),[Id('arr')])),[],[Return(ArrayLiteral([]))])],([],[]))]))])

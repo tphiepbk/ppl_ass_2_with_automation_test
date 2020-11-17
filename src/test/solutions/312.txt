@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('this_is_function_1'),[VarDecl(Id('a'),[],IntLiteral(6)),VarDecl(Id('str'),[],StringLiteral('sldfs$#%#$%#$%#$df'))],([],[Assign(Id('a'),BinaryOp('+',Id('a'),Id('str'))),CallStmt(Id('this_is_function_1'),[BinaryOp('+',Id('a'),IntLiteral(1)),BinaryOp('+',Id('str'),IntLiteral(1))]),CallStmt(Id('println'),[Id('a')])]))])

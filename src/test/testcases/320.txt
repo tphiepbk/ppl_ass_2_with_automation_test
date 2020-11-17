@@ -1,0 +1,8 @@
+
+        Function: test
+        Parameter: arr[1000]
+        Body:
+            If !len(arr) 
+                Then Return {}; 
+            EndIf.
+        EndBody.

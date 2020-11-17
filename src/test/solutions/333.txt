@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('foo_2'),[],([],[While(Id('a'),([],[While(Id('a'),([],[While(Id('a'),([],[While(Id('a'),([],[While(Id('a'),([],[While(Id('a'),([],[CallStmt(Id('print'),[BinaryOp('+',Id('a'),IntLiteral(55)),BinaryOp('==',Id('base'),IntLiteral(16))])]))]))]))]))]))]))]))])

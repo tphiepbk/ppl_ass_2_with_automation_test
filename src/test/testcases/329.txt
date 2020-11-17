@@ -1,0 +1,18 @@
+
+         Function: a
+         Parameter: var_123 = True
+         Body:
+            If var_123 Then Return "Hello";
+            ElseIf var_123 == 1 Then 
+                println("hello");
+            ElseIf var_123 == 2 Then
+                Var: a = 4;
+                If a == 5 Then 
+                    a = ((a || !b) && c) % 32;
+                    Return a;
+                EndIf.
+            Else
+                Return True;
+            EndIf.
+         EndBody.
+         

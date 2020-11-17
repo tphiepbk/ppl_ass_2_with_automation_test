@@ -1,0 +1,21 @@
+
+        Function: some_blabla_function
+        Body: 
+            For (i = 69 , i <= !(100 && ( 55|| 5345)), i \. 44793827) Do 
+                println("Empty function");
+            EndFor.
+        EndBody.
+            
+        ** Function 2**
+        
+        Function: another_blabla_function
+        Parameter: rapviet
+        Body:
+            For (i = 0, i <= 10000, i + 1) Do
+                println("Karik and Rhymatstic is gonna diss Torai9 together");
+                If win(karik) || win(rhymmastic) Then
+                    println("That\'s awesome !!!");
+                EndIf.
+            EndFor.
+        EndBody.
+        

@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('rewrw_rwerwer_rwrwer'),[VarDecl(Id('laksjflasfjlsf_afefae'),[],None)],([],[Dowhile(([],[Dowhile(([],[Dowhile(([],[Dowhile(([],[Assign(Id('a'),BinaryOp('+',Id('a'),ArrayCell(CallExpr(Id('foo'),[IntLiteral(2)]),[IntLiteral(5),IntLiteral(291)])))]),Id('a'))]),Id('a'))]),Id('a'))]),Id('a'))]))])

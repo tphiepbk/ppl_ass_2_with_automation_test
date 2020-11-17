@@ -1,0 +1,11 @@
+
+        Var: x;
+        Var: a,b,c;
+        Var: a[100];
+        Var: d = 0;
+        
+        Function: callstmt
+        Body:
+            identifier______function(a,b_,c+.3.e-2);
+        EndBody.
+        

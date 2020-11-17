@@ -1,0 +1,9 @@
+
+        Function: foo_2
+        Body:
+            Var: arr[5] = {{}};
+            **Comment again #$%$#%^#@^#**
+            arr["string"] = "string";
+            println(arr);
+        EndBody.
+        

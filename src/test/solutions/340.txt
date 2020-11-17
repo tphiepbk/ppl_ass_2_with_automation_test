@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('test_while'),[VarDecl(Id('var'),[],None)],([],[Dowhile(([],[CallStmt(Id('print'),[CallExpr(Id('foo'),[Id('pdf')])])]),Id('a'))]))])

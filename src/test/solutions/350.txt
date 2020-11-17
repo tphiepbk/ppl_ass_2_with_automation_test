@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('for_1'),[VarDecl(Id('param'),[],None)],([],[For(Id('i'),IntLiteral(0),BinaryOp('<=',Id('i'),IntLiteral(10)),BinaryOp('+',Id('i'),IntLiteral(2)),([],[If([(BinaryOp('==',Id('i'),IntLiteral(5)),[],[Break()])],([],[]))]))]))])

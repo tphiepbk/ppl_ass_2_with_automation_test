@@ -1,0 +1,7 @@
+
+        Function: a
+        Body:
+            a = !len(arr);
+            Return {};
+        EndBody.
+        

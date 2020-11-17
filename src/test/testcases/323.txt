@@ -1,0 +1,9 @@
+
+        Var: x;
+        Function: m
+        Body:
+            If a == False Then
+                a["string"] = a[0xDEF]["string2" **Just comment**];
+            EndIf.
+        EndBody.
+        

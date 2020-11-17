@@ -1,0 +1,13 @@
+
+        Function: foo_goo
+        Parameter: hello[0x123][0o456]
+        Body:
+            If hello == !(!(!(35 || 4353))) Then
+                Do
+                    Var: a = 5;
+                    println("hello");
+                    foo(foo(32587348925793));
+                While True EndDo.
+            EndIf.
+        EndBody.
+        

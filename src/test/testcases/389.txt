@@ -1,0 +1,7 @@
+
+        Function: babyFunction
+        Body:
+            Var: foooooo[4234];
+            foo = (a + 2)["baby"][0x123];
+        EndBody.
+        

@@ -1,0 +1,14 @@
+
+        Function: test_do_while
+        Parameter: sjfasldfjksl
+        Body:
+            Do 
+                While a >= 0 Do
+                    println("hello world");
+                    If askdf == "stsafjklsjdlkfj" Then
+                        foo(goo(5));
+                    EndIf.
+                EndWhile.
+            While (!(!(a || b))) EndDo.
+        EndBody.
+        

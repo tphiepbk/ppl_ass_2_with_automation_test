@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('the_last_do_while'),[VarDecl(Id('rpt_mck'),[],None)],([],[Dowhile(([],[CallStmt(Id('print'),[StringLiteral('rap melody')]),CallStmt(Id('println'),[StringLiteral('my niece will call you grandma')]),If([(Id('mck'),[],[CallStmt(Id('love'),[Id('mck'),Id('thanh_draw'),Id('gonzo')])])],([],[]))]),BinaryOp('&&',Id('mck'),Id('tlinh')))]))])

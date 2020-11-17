@@ -1,0 +1,9 @@
+
+        Function: a
+        Body:
+            Var: a[0x123][0o456] = {{{}}};
+            If a >= 8 Then
+                a[identifier] = 2;
+            EndIf.
+        EndBody.
+        

@@ -1,0 +1,21 @@
+
+        Var: a = 4.000, b = 25.00e0;
+        Function: main
+        Parameter: a, x, y, a[5]
+        Body:
+            For (i = 0, i <= 10000, i + 343432.423432 + !("string")) Do
+                print("I love min");
+                If a Then
+                    If a Then
+                        If a Then
+                            If a Then
+                                If a Then
+                                    kiss();
+                                EndIf.
+                            EndIf.
+                        EndIf.
+                    EndIf.
+                EndIf.
+            EndFor.
+        EndBody.
+        

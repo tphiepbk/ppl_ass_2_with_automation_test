@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('skldfjsf'),[VarDecl(Id('uio5u34534oiu435'),[],None)],([],[Dowhile(([],[CallStmt(Id('print'),[Id('jfalksjfljsd')]),CallStmt(Id('foo'),[Id('fdsafs')]),If([(Id('a'),[],[CallStmt(Id('goo'),[Id('rewr')])])],([],[]))]),UnaryOp('!',UnaryOp('!',UnaryOp('!',BinaryOp('&&',BinaryOp('||',BinaryOp('||',Id('wer'),Id('wrw')),Id('wrw')),Id('fksaf'))))))]))])

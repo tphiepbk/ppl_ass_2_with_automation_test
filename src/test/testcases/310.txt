@@ -1,0 +1,6 @@
+
+        Function: fun
+        Parameter: a
+        Body:
+        EndBody.
+        

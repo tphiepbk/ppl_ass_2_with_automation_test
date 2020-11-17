@@ -1,0 +1,9 @@
+
+        Function: foo_goo
+        Parameter: arr[12][3][0o654] = {{}}
+        Body:
+            **Var : a = 9;**
+            arr["0o123"] = foo(6.000001)[5];
+            foo(c(b()));
+        EndBody.
+        

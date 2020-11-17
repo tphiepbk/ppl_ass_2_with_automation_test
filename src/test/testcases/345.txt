@@ -1,0 +1,16 @@
+
+        Function: function
+        Parameter: hehhehshe
+        Body:
+            Do
+                While a Do
+                    print("hfasdfkjals");
+                    foo(foo(foo(goo(5))));
+                    Do
+                        print("Hello world");
+                    While a EndDo.
+                EndWhile.
+            While a == 0
+            EndDo.
+        EndBody.
+        

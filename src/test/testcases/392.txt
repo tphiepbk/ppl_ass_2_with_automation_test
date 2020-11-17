@@ -1,0 +1,12 @@
+
+        Function: main
+        Parameter: hello
+        Body:
+            For(i = initial(), i < bound() + bound()[2343], step(step(8))) Do
+                a = in(f(in(2, f())))[f()];
+            EndFor.
+            If hello Then
+                print("hello");
+            EndIf.
+        EndBody.
+        

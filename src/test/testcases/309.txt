@@ -1,0 +1,4 @@
+
+        ** Var: a = skfajs**
+        Var: real_A_A_A_B_B_B = {True,{"string",{0x123,{0o123} **asdfsd**}}};
+        

@@ -1,0 +1,6 @@
+
+        Function: foo_1
+        Body:
+            goo_1(foo_1());
+        EndBody.
+        

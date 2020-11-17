@@ -1,0 +1,11 @@
+
+        Function: test_While
+        Parameter:  arr_23432[3443]
+        Body:
+            While (arr_23432[0.30023] || 5.49745) >= 98.5345 Do
+                If arr["indexString"] == 0.4324 Then
+                    a = a + foo(hello);
+                EndIf.
+            EndWhile.
+        EndBody. 
+        

@@ -1,0 +1,17 @@
+
+        Function: test
+        Parameter: a,b
+        Body:
+            a = "string 1";
+            b = "string 2";
+            Return concatenate(a, b);
+        EndBody.
+        Function: doodoodoo
+        Parameter: a[5], b
+        Body:
+            For (i = 0, i < 10, 2) Do
+                print("anonymus");
+                print("lucifer");
+            EndFor.
+        EndBody.
+        

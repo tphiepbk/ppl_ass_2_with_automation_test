@@ -1,0 +1,1 @@
+Program([VarDecl(Id('arr0x_123'),[1,1194684],ArrayLiteral([ArrayLiteral([StringLiteral('Hello')]),IntLiteral(675),ArrayLiteral([StringLiteral('0x123')]),StringLiteral('0O123')]))])

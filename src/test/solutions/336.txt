@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('test_while'),[VarDecl(Id('a'),[5],None)],([],[While(Id('a'),([],[While(UnaryOp('!',Id('a')),([],[If([(Id('a'),[],[CallStmt(Id('println'),[StringLiteral('sfasdfasd'),UnaryOp('!',IntLiteral(6)),UnaryOp('!',BinaryOp('+',Id('f'),CallExpr(Id('f'),[IntLiteral(9)])))])])],([],[]))]))]))]))])

@@ -1,0 +1,22 @@
+
+        Function: fe 
+        Parameter: n, k
+        Body: 
+            Do
+                x= x+1;
+            While (x>1) 
+            EndDo.
+        EndBody.
+        
+        **This is my function**
+        
+        Function: varinstmtlist
+        Body:
+            Var: i = 0;
+            Do
+                Var: k = 10;
+                i = i + 1;
+            While i <= 10
+            EndDo.
+        EndBody.
+        

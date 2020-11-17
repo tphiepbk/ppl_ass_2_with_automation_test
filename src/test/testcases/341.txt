@@ -1,0 +1,12 @@
+
+        Function: do_WHILE_2
+        Parameter: var
+        Body:
+            Do
+                If var Then
+                    println(var);
+                EndIf.
+            While var
+            EndDo.
+        EndBody.
+        

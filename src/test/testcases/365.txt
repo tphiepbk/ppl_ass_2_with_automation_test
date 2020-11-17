@@ -1,0 +1,13 @@
+
+        Function: parameter
+        Parameter: a, b,c[123] ,d[123][234][0]  ,e
+        Body:
+            a=1;
+        EndBody.
+        
+        Function: mk
+        Parameter: x
+        Body:
+            fun0(fun1(fun2(fun3(fun4("end here")))));
+        EndBody.
+        

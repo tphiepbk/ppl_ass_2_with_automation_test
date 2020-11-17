@@ -1,0 +1,1 @@
+Program([VarDecl(Id('a'),[],ArrayLiteral([IntLiteral(1),IntLiteral(2),IntLiteral(255)])),VarDecl(Id('b'),[],StringLiteral('**nhin cai gi ma nhin')),VarDecl(Id('c'),[],None),FuncDecl(Id('main'),[VarDecl(Id('x'),[],None),VarDecl(Id('y'),[],None),VarDecl(Id('z'),[],None)],([],[])),FuncDecl(Id('whileEmpty'),[],([],[While(BinaryOp('<',Id('i'),IntLiteral(5)),([],[]))]))])

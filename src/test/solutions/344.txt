@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('test_do_while'),[VarDecl(Id('param'),[],None)],([VarDecl(Id('vardecl'),[],StringLiteral('43535345'))],[Dowhile(([],[If([(Id('a'),[],[Dowhile(([],[If([(Id('a'),[],[Dowhile(([],[CallStmt(Id('print'),[StringLiteral('hello world')])]),Id('a'))])],([],[]))]),Id('a'))])],([],[]))]),Id('a'))]))])

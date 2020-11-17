@@ -1,0 +1,1 @@
+Program([VarDecl(Id('t'),[],IntLiteral(0)),FuncDecl(Id('mk'),[VarDecl(Id('x'),[],None)],([VarDecl(Id('r3'),[4],FloatLiteral(3e+35))],[])),FuncDecl(Id('m'),[],([],[While(Id('d'),([],[If([(BooleanLiteral(False),[],[Break(),CallStmt(Id('foo'),[IntLiteral(5)]),CallStmt(Id('print'),[CallExpr(Id('foo'),[IntLiteral(9)])])])],([],[]))]))]))])

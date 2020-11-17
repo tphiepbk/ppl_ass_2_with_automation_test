@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('do_WHILE_2'),[VarDecl(Id('var'),[],None)],([],[Dowhile(([],[If([(Id('var'),[],[CallStmt(Id('println'),[Id('var')])])],([],[]))]),Id('var'))]))])

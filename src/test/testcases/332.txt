@@ -1,0 +1,8 @@
+
+        Function: test_while_2
+        Body:
+            While (a == b - 5) && (a || !b) Do
+                a  = 1 + arr[66];
+            EndWhile.
+        EndBody.
+        

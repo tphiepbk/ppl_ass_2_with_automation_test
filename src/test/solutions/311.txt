@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('foo1'),[],([VarDecl(Id('a'),[],IntLiteral(8))],[Assign(Id('a'),BinaryOp('+',Id('a'),IntLiteral(6)))])),FuncDecl(Id('foo2'),[],([VarDecl(Id('hex'),[],IntLiteral(1193034))],[Assign(Id('res'),BinaryOp('>',Id('hex'),IntLiteral(565)))]))])

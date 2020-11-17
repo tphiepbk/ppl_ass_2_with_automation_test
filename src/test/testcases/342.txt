@@ -1,0 +1,15 @@
+
+        Function: rewrw_rwerwer_rwrwer
+        Parameter: laksjflasfjlsf_afefae
+        Body:
+            Do 
+                Do 
+                    Do
+                        Do
+                            a = a + foo(2)[5][0x123];
+                        While a EndDo.    
+                    While a EndDo.
+                While a EndDo.
+            While a EndDo.
+        EndBody.
+        

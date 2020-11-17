@@ -1,0 +1,18 @@
+
+        Function: foo_2
+        Body:
+            While a Do
+                While a Do
+                    While a Do
+                        While a Do
+                            While a Do
+                                While a Do
+                                    print(a + 55, base == 16);
+                                EndWhile.
+                            EndWhile.
+                        EndWhile.
+                    EndWhile.
+                EndWhile.
+            EndWhile.
+        EndBody.
+        

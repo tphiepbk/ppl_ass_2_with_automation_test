@@ -1,0 +1,16 @@
+
+        Function: main
+        Body:
+            For(counter = 0., foo() * a[23] == 2, "asd") Do
+                x = 213;
+            EndFor.
+        EndBody.
+        Function: moreThanLove
+        Body:
+            Var: x = {{1,2,3}, **Comment here** "abc"};
+            While (i < 5) Do
+                If i == 3 Then Return 1;EndIf.
+            i = i || 1;
+            EndWhile.
+        EndBody.
+        

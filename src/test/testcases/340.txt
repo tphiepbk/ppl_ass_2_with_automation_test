@@ -1,0 +1,10 @@
+
+        Function: test_while
+        Parameter: var
+        Body:
+            Do
+                print(foo(pdf));
+            While a
+            EndDo.
+        EndBody.
+        

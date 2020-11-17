@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('foo_2'),[],([VarDecl(Id('arr'),[5],ArrayLiteral([ArrayLiteral([])]))],[Assign(ArrayCell(Id('arr'),[StringLiteral('string')]),StringLiteral('string')),CallStmt(Id('println'),[Id('arr')])]))])

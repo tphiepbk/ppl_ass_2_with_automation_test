@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('a'),[VarDecl(Id('a'),[291],None),VarDecl(Id('str'),[],StringLiteral('Hello'))],([],[If([(IntLiteral(4),[],[If([(IntLiteral(4),[],[If([(IntLiteral(4),[],[If([(IntLiteral(4),[],[If([(IntLiteral(4),[],[CallStmt(Id('println'),[StringLiteral('helloWorld')])])],([],[]))])],([],[]))])],([],[]))])],([],[]))])],([],[]))]))])

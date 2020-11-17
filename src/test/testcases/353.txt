@@ -1,0 +1,13 @@
+
+        Function: loop_for
+        Body:
+            For (i = !!!!(foo(!(5))), i >= 0x1234, i && 4234) Do
+                For (j = 5, j <= 20, j + 1) Do
+                    print("hello world");
+                    If hello == hello Then
+                        foo(foo(!!!!!!t));
+                    EndIf.
+                EndFor.
+            EndFor.
+        EndBody.
+        

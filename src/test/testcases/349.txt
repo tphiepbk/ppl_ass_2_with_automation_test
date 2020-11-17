@@ -1,0 +1,13 @@
+
+        Function: the_last_do_while
+        Parameter: rpt_mck
+        Body:
+            Do
+                print("rap melody");
+                println("my niece will call you grandma");
+                If mck Then
+                    love(mck, thanh_draw, gonzo);
+                EndIf.
+            While mck && tlinh EndDo.
+        EndBody.
+        

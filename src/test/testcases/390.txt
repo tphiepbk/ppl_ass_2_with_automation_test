@@ -1,0 +1,17 @@
+
+        Function: foo
+        Parameter: a[5], b
+        Body:
+            a = {12,{{1,2,3}},{},{},4} * "ad" + 14 -. 12 + !!!!!!!!!!!!(!!3);
+        EndBody.
+        
+        Function: iiiiiiiiiiiiiifOKE
+        Body:
+            If n == 0 Then
+                x = 3;
+            ElseIf x == !(2) Then
+                check = False;
+                check = True;
+            EndIf.
+        EndBody.
+        

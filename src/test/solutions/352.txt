@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('rapviet'),[VarDecl(Id('list'),[324234],None)],([],[For(Id('i'),IntLiteral(1),BinaryOp('<=',Id('i'),IntLiteral(15)),BinaryOp('+',Id('i'),IntLiteral(1)),([],[CallStmt(Id('champion'),[Id('de_choat')]),Dowhile(([],[CallStmt(Id('print'),[StringLiteral('gducky is better than de_choat')])]),CallExpr(Id('champion'),[Id('gducky')]))]))]))])

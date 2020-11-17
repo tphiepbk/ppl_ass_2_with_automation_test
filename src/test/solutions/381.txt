@@ -1,0 +1,1 @@
+Program([VarDecl(Id('x'),[],None),VarDecl(Id('a'),[],None),VarDecl(Id('b'),[],None),VarDecl(Id('c'),[],None),VarDecl(Id('a'),[100],None),VarDecl(Id('d'),[],IntLiteral(0)),FuncDecl(Id('callstmt'),[],([],[CallStmt(Id('identifier______function'),[Id('a'),Id('b_'),BinaryOp('+.',Id('c'),FloatLiteral(0.03))])]))])

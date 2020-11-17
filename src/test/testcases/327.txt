@@ -1,0 +1,10 @@
+
+        Var: a = "#$%#$^$653664^%#^$%^";
+        **Just a comment**
+        Function: a
+        Body:
+            If a >= 7 Then
+                print("hello");
+            EndIf.
+        EndBody.
+        

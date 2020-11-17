@@ -1,0 +1,16 @@
+
+        Var: x, s = "abc", z = 2;
+        Function: fact
+        Parameter: x
+        Body:
+            Do Return a;
+            While i != 5 EndDo.
+            Return b[5] *. foo(foo(2) + 3);
+        EndBody.
+        
+        Function: mk
+        Parameter: x
+        Body:
+            b = -a;
+        EndBody.
+        

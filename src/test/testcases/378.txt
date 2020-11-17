@@ -1,0 +1,16 @@
+
+        Var: x, y[2][5];
+        Function: factorial
+        Body:
+            a = {{{1, 2, {2, 5, 7}, 9}, 2, 5}};
+            If True 
+            Then Return 5 * foo(3);
+            Else Return 0;
+            EndIf.
+        EndBody.
+        
+        Function: complex
+        Body:
+            a =-((func1(array)+23) * -func2(4.234234)+arr[3])\.0.54234234;
+        EndBody.
+        

@@ -1,0 +1,13 @@
+
+        Function: for_2
+        Parameter: osad, long_nger
+        Body:
+            For (count = 100, count >= 28, count || 7) Do
+                If diss(osad, long_nger) Then
+                    diss(long_nger, osad);
+                    print("rap battle");
+                EndIf.
+                watch(audience);
+            EndFor.
+        EndBody.
+        

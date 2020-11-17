@@ -1,0 +1,12 @@
+
+        Var: torai9;
+        Var: rhymastic;
+        Function: beef
+        Parameter: youtube
+        Body:
+            res = diss(torai9, rhymastic);
+            If success(res) Then
+                writeln("hoooooo, torai9 is just a cock");
+            EndIf.
+        EndBody.
+        

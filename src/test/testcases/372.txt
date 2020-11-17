@@ -1,0 +1,21 @@
+
+        Var : k = 0.3e12;
+        
+        Function: bar 
+        Parameter: n 
+        Body: 
+            If !a Then b = 5; EndIf.
+        EndBody.
+        
+        Function: test
+        Parameter: k, a
+        Body:
+            Var: str = "this is a string";
+            Var: token;
+            token = strtok(str, "-");
+            While ((token != null)) Do
+                printf("%s", token);
+                token = strtok(str, "-");
+            EndWhile.
+        EndBody.
+        

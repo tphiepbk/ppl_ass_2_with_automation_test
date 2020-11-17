@@ -1,0 +1,1 @@
+Program([VarDecl(Id('real_A_A_A_B_B_B'),[],ArrayLiteral([BooleanLiteral(True),ArrayLiteral([StringLiteral('string'),ArrayLiteral([IntLiteral(291),ArrayLiteral([IntLiteral(83)])])])]))])

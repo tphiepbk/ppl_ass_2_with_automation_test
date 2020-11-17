@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('computer_arch'),[VarDecl(Id('n'),[],None),VarDecl(Id('k'),[],None)],([],[For(Id('i'),FloatLiteral(9.0945345),BinaryOp('<',Id('i'),UnaryOp('!',BinaryOp('||',IntLiteral(53534),IntLiteral(534543)))),StringLiteral('index++'),([],[CallStmt(Id('print'),[StringLiteral('9.5 yahooooo !!!!')])]))]))])

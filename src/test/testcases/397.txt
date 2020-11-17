@@ -1,0 +1,14 @@
+
+        Var: decl =  "5345345345";
+        Function: fact
+        Body:
+            Var : x = 5, y = {{}}; 
+            For (i = 0, i < 10, 2) Do
+                writeln(i);
+                If i == 7 Then Break;
+                ElseIf i == 8 Then Continue;
+                Else Return nothing;
+                EndIf.
+            EndFor.
+        EndBody.
+        

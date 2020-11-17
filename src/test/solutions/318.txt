@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('foo_1'),[],([],[CallStmt(Id('goo_1'),[CallExpr(Id('foo_1'),[])])]))])

@@ -1,0 +1,13 @@
+
+        Function: skldfjsf
+        Parameter: uio5u34534oiu435
+        Body:
+            Do 
+                print(jfalksjfljsd);
+                foo(fdsafs);
+                If a Then
+                    goo(rewr);
+                EndIf.
+            While !!!(wer || wrw || wrw && fksaf) EndDo.
+        EndBody.
+        

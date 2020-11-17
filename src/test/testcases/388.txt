@@ -1,0 +1,12 @@
+
+        Function: softwareEngineering
+        Parameter: a[5], b
+        Body:
+            c = mayukochan[0] + x[{1,2, 4}];
+        EndBody.
+        
+        Function: callcomplex
+        Body:
+            call(a,876,var*.65e-1,arr[3],True,"chuoi",5345\.535435,767*645645);
+        EndBody.
+        

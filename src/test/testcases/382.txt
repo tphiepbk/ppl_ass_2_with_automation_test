@@ -1,0 +1,24 @@
+
+        Function: bar 
+        Parameter: n
+        Body: 
+            a= (a==b)!= c ;
+            x= (x =/= y) <. z;
+        EndBody.
+        
+        Function: func_call
+        Body:
+            x = (!x || True) * kd[12] == 2 % 123 && False \ blala;
+            Return;
+        EndBody.
+        
+        Function: factorial
+        Parameter: x
+        Body:
+            For(i = 9.23423423 , foo() * a[98][99] != 1e9, "abc") Do
+                x = 213;
+                x = x =/= 5435 || !332423;
+            EndFor.
+            Return; 
+        EndBody.
+        

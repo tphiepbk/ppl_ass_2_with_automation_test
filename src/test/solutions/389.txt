@@ -1,0 +1,1 @@
+Program([FuncDecl(Id('babyFunction'),[],([VarDecl(Id('foooooo'),[4234],None)],[Assign(Id('foo'),ArrayCell(BinaryOp('+',Id('a'),IntLiteral(2)),[StringLiteral('baby'),IntLiteral(291)]))]))])

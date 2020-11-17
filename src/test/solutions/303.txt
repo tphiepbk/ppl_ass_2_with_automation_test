@@ -1,0 +1,1 @@
+Program([VarDecl(Id('a'),[3,4,6,1000],StringLiteral('This is a string')),VarDecl(Id('var_1'),[],BooleanLiteral(True))])

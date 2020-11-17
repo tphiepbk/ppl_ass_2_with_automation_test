@@ -1,0 +1,13 @@
+
+        Function: test_while
+        Parameter: a[5]
+        Body:
+            While a Do
+                While !a Do
+                    If a Then
+                        println("sfasdfasd", !6, !(f + f(9)));
+                    EndIf.
+                EndWhile.
+            EndWhile.
+        EndBody.
+        

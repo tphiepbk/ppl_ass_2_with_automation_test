@@ -1,0 +1,23 @@
+
+        Var: x;
+        Function: test
+        Body:
+            While True Do
+                v = receive(socket, max_len);
+                If v Then
+                    handle();
+                EndIf.
+            EndWhile.
+        EndBody.
+        
+        Function: testreturn
+        Parameter: n
+        Body:
+            Var: t=False;
+            If n<100 Then
+                test();
+                t = 2. \. 5.;
+            EndIf.
+            Return t;
+        EndBody.
+        

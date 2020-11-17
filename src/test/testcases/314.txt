@@ -1,0 +1,7 @@
+
+        Function: foo
+        Parameter: a,b,c,d,e,f
+        Body:
+            (a + foo(3))[5] = 5;
+        EndBody.
+        
